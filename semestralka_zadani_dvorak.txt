@@ -1,0 +1,51 @@
+Zadání semestrální práce:
+-------------------------
+
+Téma: Skladový systém
+
+
+Požadovaná funkcionalita:
+-------------------------
+Systém udržuje informace o zboží ve skladu. U každého jednotlivého kusu
+zboží jsou evidovány min. tyto informace:
+- ID: jednoznačný identifikátor
+- název
+- druh
+- popis
+- datum naskladnění (pro jednoduchost může být pořadové číslo v roce),
+  bude se vyplňovat při naskladnění
+
+
+1. Naskladnění zboží:
+   Přidání konkrétního zboží do skladu. Kontrola, zda tentýž kus (se stejným ID)
+   již ve skladu neexistuje.
+   
+   
+2. Vyskladnění zboží:
+   Odebrání konkrétního zboží ze skladu. Zboží musí ve skladu existovat. 
+   
+   
+3. Vyhledávání zboží podle:
+   - ID 
+   - názvu:
+     Více kusů zboží může mít totožný název, ale ID budou vždy odlišné.
+
+	 
+* 
+
+4. Výpis počtu kusů zboží dle všech druhů:
+   Příklad:
+   - druh: A	kusů: 15
+   ...
+   - druh: Z	kusů: 0
+
+*
+
+5. Program nabídne uživateli i možnost načtení záznamů o zboží ve skladu 
+   ze souboru a uložení dat zboží ve skladu do souboru.
+   
+
+Program MUSÍ splňovat formální požadavky na semestrální práce - viz. slajd
+z první přednášky. 
+
+   
