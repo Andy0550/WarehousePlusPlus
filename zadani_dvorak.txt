@@ -1,0 +1,26 @@
+C++ semestrální práce na téma SKLADOVÝ SYSTÉM
+---------------------------------------------
+
+Systém udržuje informace o zboží ve skladu. 
+
+Z hlavní třídy Item jsou zděděny 3 třídy, Book, Movie, Vinyl.
+
+Objekty jsou dynamicky vytvářeny a poté ukládány do vektoru. 
+
+Data jsou ukládána a načítána z CSV souboru, pro přehledný tabulkový výstup i mimo program.
+
+Program poskytuje 4 hlavní funkcionality: 
+	Zobrazení aktuálně naskladněného zboží.
+	Přidání zboží do skladu.
+	Odebrání zboží ze skladu.
+	Hledání zboží podle ID nebo jména.
+
+Při přidávání zboží do skladu uživatel vyplní potřebné informace jako např. název, kategorii(zde je třeba dodržet předvolené názvy) nebo datum naskladnění výrobku. 
+
+
+
+
+ 
+
+
+   
